@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="main">
+    <div class="app">
+      <div class="main--app">
+        <div class="profile">
+          <div class="profile__notification"></div>
+          <div class="profile__user">
+          <svg class="icon">
+            <use xlink:href="./images/sprite.svg#icon-chevron-left"></use>
+          </svg>
+          <img src="./images/avatar.jpg" alt="" class="profile__img">
+          <div class="profile__details">
+            <h2 class="profile__username">Samuel Green</h2>
+            <p class="profile__status">Available to Walk</p>
+          </div>
+          <svg class="icon">
+            <use xlink:href="./images/sprite.svg#icon-dots-three-vertical"></use>
+          </svg>
+          </div>
+        </div>
+        <div class="chat--container">
+          <article class="box mod-violent">
+          That sounds great. I’d be<br>happy with that.
+        </article>
+        <article class="box mod-violent">Could you send over some<br>pictures of your dog, please?</article>
+        <div class="flex-image">
+          <img src="./images/dog-image-1.jpg" alt="" class="flex-images">
+          <img src="./images/dog-image-2.jpg" alt="" class="flex-images">
+          <img src="./images/dog-image-3.jpg" alt="" class="flex-images">
+        </div>
+
+        <article class="box dark-violent">Here are a few pictures. She’s<br>a happy girl!</article>
+        <article class="box dark-violent">Can you make it?</article>
+        <article class="box mod-violent">She looks so happy! The time<br>we discussed works. How<br>long shall I take her out for?</article>
+        <article class="box audio-container">
+          <input type="radio" name="" id="audio-2" class="input-audio">
+          <label for="audio-2" class="label">
+            <span class="label-button"></span>
+          </label>
+          <span class="audio">30 minute walk</span>
+          <span class="price">$29</span>
+        </article>
+        <article class="box audio-container">
+          <input type="radio" name="" id="audio-1" class="input-audio">
+          <label for="audio-1" class="label">
+            <span class="label-button"></span>
+          </label>
+          <span class="audio" >1 hour walk</span>
+          <span class="price">$49</span>
+        </article>
+        <form class="form">
+          <input type="text" name="" id="" placeholder="Type a message…" class="message">
+          <svg class="icon icon-chev-right">
+            <use xlink:href="./images/sprite.svg#icon-chevron-right"></use>
+          </svg>
+        </form>
+        </div>
+      </div>
+    </div>
+    <div class="app--text">
+      <h1>Simple booking</h1>
+    <p>
+      Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+    </p>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eko Gift</a>.</p>
+  </footer>
+  <div class="bk-top"></div>
+  <div class="bk-bottom"></div>
+</body>
+</html>
