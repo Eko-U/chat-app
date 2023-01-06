@@ -48,6 +48,7 @@ body {
   font-size: calc(16rem / 16);
 
   background-color: var(--white);
+  overflow: hidden;
 }
 
 .main {
@@ -360,6 +361,11 @@ p {
   }
   .app {
     justify-self: center;
+    animation-duration: 3s;
+  }
+
+  .app--text {
+    animation-duration: 5s;
   }
 
   @keyframes topToBottom {
@@ -372,5 +378,11 @@ p {
       opacity: 1;
       transform: translateY(0);
     }
+  }
+}
+
+@media only screen and (max-width: 25.375em) {
+  body {
+    padding: calc(20rem / 16);
   }
 }
