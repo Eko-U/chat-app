@@ -30,6 +30,8 @@
 
 html {
   box-sizing: border-box;
+
+  overflow-x: hidden;
 }
 
 body {
@@ -83,8 +85,6 @@ p {
   border-radius: calc(50rem / 16);
   background-color: var(--white);
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-
-  transform: translateX(-3rem);
 
   animation-name: leftToRight;
   animation-duration: 4s;
@@ -301,6 +301,7 @@ p {
 
   background-image: linear-gradient(to bottom, var(--light-magenta), var(--light-violet) 80%);
 }
+
 .bk-bottom {
   border-top-left-radius: 50rem;
   border-top-right-radius: 50rem;
