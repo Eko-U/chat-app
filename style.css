@@ -50,7 +50,6 @@ body {
   font-size: calc(16rem / 16);
 
   background-color: var(--white);
-  overflow-x: hidden;
 }
 
 .main {
@@ -244,7 +243,7 @@ p {
 }
 
 .price {
-  font-size: calc(18rem / 16);
+  font-size: calc(20rem / 16);
   font-weight: 700;
 }
 
